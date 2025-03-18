@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      header {
+        text-align: center;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th {
+        border: 1px solid black;
+      }
+
+      tr,
+      td {
+        border: 1px solid black;
+      }
+
+      td {
+        padding: 4px;
+        text-align: center;
+      }
+    </style>
+    <title>Week 2 Assignment</title>
+  </head>
+  <body>
+    <header>
+      <h1>Week 2 Web Technologies Assignment</h1>
+    </header>
+
+    Below is a list of my goals with PLP
+    <ol type="i">
+      <li>
+        Sucessfuly complete the Web Technologies Module and be profficinet in
+        Full Stack we Development.
+      </li>
+      <li>
+        Leverage on the Python Module for automation purposes with a possibe
+        future in AI.
+      </li>
+      <li>
+        Master the use of Database fundamentals to bolster my builds and create
+        robust web and mobile applications.
+      </li>
+      <li>
+        Leverage on the Entreprenuership and Personal development skill to grow
+        as an entrepreneur and a person.
+      </li>
+    </ol>
+
+    <figure>
+      <img
+        src="img/pexels-bohlemedia-2803158.jpg"
+        alt="a photo of a man running"
+        width="300"
+        height="300"
+      />
+
+      <figcaption>Photo by Bohle Media from Pexels</figcaption>
+    </figure>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Programmer Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Aiyenigba Godwin Mosope</td>
+          <td>Winnchester</td>
+          <td>FCT Abuja, Nigeria</td>
+          <td>+2349036846501</td>
+          <td>winnchester17@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Got any thougts? Share with us below:</p>
+
+    <form action="#" method="#">
+      <p>
+        <label for="name">FullName</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date" required />
+      </p>
+
+      <p>
+        <input type="radio" id="male" name="gender" value="m" />
+        <label for="male">Male</label>
+
+        <br />
+
+        <input type="radio" id="female" name="gender" value="f" />
+        <label for="female">Female</label>
+
+        <br />
+
+        <input type="radio" name="gender" id="other" value="o" />
+        <label for="other">Other</label>
+      </p>
+
+      <p>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="nigeria" selected>Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+          <option value="other">Not Mentioned</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="input"
+          >If country wasn't mentioned, please specify below</label
+        >
+        <br />
+
+        <textarea
+          name="input"
+          id="input"
+          placeholder="Country's name"
+          rows="5"
+          cols="30"
+          requiredd
+        ></textarea>
+      </p>
+
+      <p>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+      </p>
+
+      <p>
+        <label for="password">Confirm Password</label>
+        <input type="password" name="password" id="password" required />
+      </p>
+
+      <p>
+        Share your thoughts below;
+        <br />
+        <textarea
+          name="thoughts"
+          id="thoughts"
+          placeholder="Thoughts?"
+          rows="5"
+          cols="50"
+          required
+        ></textarea>
+      </p>
+
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </body>
+</html>
